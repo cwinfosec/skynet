@@ -21,6 +21,8 @@ The project includes the following components:
 - **skynet.py**: Flask web application handling incoming SMS requests, processing them with GPT-3, and responding via SMS.
 - **skynet_diagram.PNG**: Diagram illustrating the architecture of the SKYNET system.
 
+![](/skynet_diagram.PNG)
+
 ## Installation
 
 To install SKYNET and set up the environment, follow these steps:
