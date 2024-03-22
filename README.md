@@ -29,8 +29,8 @@ To install SKYNET and set up the environment, follow these steps:
 1. Clone the repository:
 
 ```
-git clone <repository_url>
-cd <repository_directory>
+git clone [<repository_url>](https://github.com/cwinfosec/skynet)
+cd skynet
 ```
 
 2. Install the required dependencies:
@@ -52,16 +52,6 @@ python skynet.py
 ## Usage
 
 Once SKYNET is set up and running, users can interact with it by sending SMS messages to the Twilio number configured in the `src_phone` variable within `skynet.py`. SKYNET will process the incoming messages using GPT-3 and respond accordingly.
-
-## Contributing
-
-Contributions to SKYNET are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
 
 ## License
 
