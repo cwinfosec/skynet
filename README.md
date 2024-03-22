@@ -1,6 +1,6 @@
 # SKYNET - AI Assistant with Twilio Integration
 
-SKYNET is an AI assistant implemented in Python, utilizing OpenAI's GPT-3 for natural language processing. It includes integration with Twilio for SMS communication.
+SKYNET is an AI assistant implemented in Python, utilizing OpenAI's GPT-3 for natural language processing. It includes integration with Twilio for SMS communication. Currently works with GPT-3.
 
 ## Table of Contents
 
@@ -52,6 +52,11 @@ python skynet.py
 ## Usage
 
 Once SKYNET is set up and running, users can interact with it by sending SMS messages to the Twilio number configured in the `src_phone` variable within `skynet.py`. SKYNET will process the incoming messages using GPT-3 and respond accordingly.
+
+## To-Do
+
+- Add support for GPT-4
+- Add support for custom/localized LLM's
 
 ## License
 
