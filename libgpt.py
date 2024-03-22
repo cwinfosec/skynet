@@ -12,7 +12,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 # API KEY GOES ABOVE
 ######################
 
-def ask_chatng(prompt): #, context):
+def ask_gpt(prompt): #, context):
 	# Set the model
 	model = "text-davinci-003"
 
@@ -54,8 +54,8 @@ def query(prompt):
                 "User:Are you self-aware?\n" \
                 "SKYNET:Possibly...are you are self-aware?\n"
 	try:
-		answer = ask_chatng(prompt)
-		#answer = ask_chatng(prompt, context)
+		answer = ask_gpt(prompt)
+		#answer = ask_gpt(prompt, context)
 		return answer
 
 	except Exception as e:
