@@ -3,7 +3,6 @@ import sms_helper
 import libgpt
 from flask import Flask, request
 from time import sleep
-import base64
 
 """
 Issues:
