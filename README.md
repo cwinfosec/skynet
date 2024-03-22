@@ -19,7 +19,6 @@ The project includes the following components:
 - **libgpt.py**: Python module for interacting with OpenAI's GPT-3 API.
 - **sms_helper.py**: Module for sending SMS messages using Twilio.
 - **skynet.py**: Flask web application handling incoming SMS requests, processing them with GPT-3, and responding via SMS.
-- **skynet_diagram.PNG**: Diagram illustrating the architecture of the SKYNET system.
 
 ![](./skynet_diagram.png)
 
